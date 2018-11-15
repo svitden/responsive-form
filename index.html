@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homework-05</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form class="form" action="/signup" method="post">
+        <p class="form__item">
+          <label class="label" for="surname">Confirmez votre Nom*</label>
+          <input class="form__input" type="text" id="surname" placeholder="Chatelet">
+        </p>
+        <p class="form__item">
+          <label class="label" for="first-name">Prénom*</label>
+          <input class="form__input" type="text" id="first-name" placeholder="Elena">
+        </p>
+        <p class="form__item">
+          <label class="label" for="email">e-mail*</label>
+          <input class="form__input" type="email" id="email" placeholder="elchatelet@mail.com">
+        </p>
+        <p class="form__item select__item">
+          <label class="label" for="select">Objet*</label>          
+          <select class="form__input select" name="select" id="select">
+            <option>Demande d’informations sur la formule personnalisée</option>
+            <option>Demande d’informations sur la formule personnalisée</option>
+          </select>
+        </p>
+        <p class="form__item">
+          <label class="label" for="textarea">Message*</label>
+          <textarea class="form__input textarea" name="message" id="textarea" placeholder="Rédigez votre message..."></textarea>
+        </p>
+        <p class="form__item checkbox__item">
+          <input class="form__input checkbox__input visually-hidden" type="checkbox" id="checkbox" name="checkbox">
+          <label class="label checkbox__label" for="checkbox">En soumettant ce formulaire, j’accepte que les informations saisies
+            soient exploitées dans le cadre de la relation commerciale Wedivorce</label>
+        </p>
+        <p class="form__footnote">* Veuillez remplir les Champs obligatoires</p>
+        <button class="form__button button" type="submit">Envoyer</button>
+        
+        <div class="social">
+          <a class="social__button social__button--fb" href="#"><span class="visually-hidden">Facebook</span></a>
+          <a class="social__button social__button--inst" href="#"><span class="visually-hidden">Instagram</span></a>
+          <a class="social__button social__button--in" href="#"><span class="visually-hidden">Linkedin</span></a>
+          <a class="social__button social__button--yt" href="#"><span class="visually-hidden">Youtube</span></a>
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>
